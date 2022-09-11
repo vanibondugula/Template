@@ -1,6 +1,7 @@
-/* GLOBAL STYLES
--------------------------------------------------- */
-/* Padding below the footer and lighter body text */
+@import 'bootstrap/bootstrap';
+@import 'bootstrap/variables';
+@import 'bootstrap/mixins';
+
 .fw-light{
   background-color: black;
   color: rgb(253, 252, 252);
@@ -95,21 +96,17 @@ body {
     text-transform: uppercase;
     font-style: bold;
   }
+
   
   /* CUSTOMIZE THE CAROUSEL
   -------------------------------------------------- */
-  
-  /* Carousel base class */
   .carousel {
     margin-bottom: 4rem;
   }
-  /* Since positioning the image, we need to help out the caption */
   .carousel-caption {
     bottom: 3rem;
     z-index: 10;
   }
-  
-  /* Declare heights because of positioning of img element */
   .carousel-item {
     height: 32rem;
   }
@@ -174,5 +171,11 @@ body {
   .col-6{
     color: rgb(0, 0, 0);
   }
-  
+
+  /*---*/
+  a:link, a:visited {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
   
